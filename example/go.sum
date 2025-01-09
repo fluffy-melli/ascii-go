@@ -1,0 +1,4 @@
+github.com/fluffy-melli/ascii-go v0.0.1 h1:nv44BLcQ9Nu3yEoQio1JyvNu9fgBHoijaR0Pl/XnRTU=
+github.com/fluffy-melli/ascii-go v0.0.1/go.mod h1:dvzjvz5WC51PcFDc3HTSVJtuzGTHO+7yxNEPN0E5va4=
+golang.org/x/image v0.23.0 h1:HseQ7c2OpPKTPVzNjG5fwJsOTCiiwS4QdsYi5XU6H68=
+golang.org/x/image v0.23.0/go.mod h1:wJJBTdLfCCf3tiHa1fNxpZmUI4mmoZvwMCPP0ddoNKY=

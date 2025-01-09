@@ -66,7 +66,7 @@ func Render(img image.Image, w int) Ascii {
 	bounds := img.Bounds()
 	width, height := bounds.Max.X, bounds.Max.Y
 	ratio := float32(height / width)
-	height = int(float32(w) * ratio * 0.65)
+	height = int(float32(w) * ratio * 0.55)
 	resized_image := image.NewRGBA(image.Rect(0, 0, w, height))
 	draw.NearestNeighbor.Scale(resized_image, image.Rectangle{Min: bounds.Min, Max: image.Point{X: w, Y: height}}, img, img.Bounds(), draw.Over, nil)
 	respond := make(Ascii, 0)
